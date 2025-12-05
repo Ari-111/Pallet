@@ -32,9 +32,7 @@ export default function ForgotPasswordPage() {
         >
           {/* Logo */}
           <div className="flex items-center justify-center gap-2 mb-8">
-            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-violet-600 to-indigo-600 flex items-center justify-center">
-              <Sparkles className="w-7 h-7 text-white" />
-            </div>
+            <img src="/logo.png" alt="Pallet Logo" className="w-12 h-12 rounded-xl" />
             <span className="text-3xl font-bold gradient-text">Pallet</span>
           </div>
 

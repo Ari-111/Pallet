@@ -424,9 +424,7 @@ export default function TryAgentPage() {
               </Button>
             </Link>
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-violet-600 to-indigo-600 flex items-center justify-center">
-                <Sparkles className="w-5 h-5 text-white" />
-              </div>
+              <img src="/logo.png" alt="Pallet Logo" className="w-8 h-8 rounded-lg" />
               <span className="text-xl font-bold bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent">Pallet</span>
             </div>
           </div>

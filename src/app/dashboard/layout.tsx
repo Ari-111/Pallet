@@ -72,9 +72,7 @@ export default function DashboardLayout({
           {/* Logo */}
           <div className="flex items-center justify-between h-16 px-4 border-b">
             <Link href="/dashboard" className="flex items-center gap-2">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-violet-600 to-indigo-600 flex items-center justify-center">
-                <Sparkles className="w-5 h-5 text-white" />
-              </div>
+              <img src="/logo.png" alt="Pallet Logo" className="w-9 h-9 rounded-xl" />
               <span className="text-xl font-bold gradient-text">Pallet</span>
             </Link>
             <Button

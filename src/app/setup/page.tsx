@@ -145,9 +145,7 @@ export default function SetupPage() {
           className="text-center mb-8"
         >
           <div className="flex items-center justify-center gap-2 mb-4">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-violet-600 to-indigo-600 flex items-center justify-center">
-              <Sparkles className="w-6 h-6 text-white" />
-            </div>
+            <img src="/logo.png" alt="Pallet Logo" className="w-10 h-10 rounded-xl" />
             <span className="text-2xl font-bold gradient-text">Pallet</span>
           </div>
           <h1 className="text-2xl font-bold mb-2">Set up your voice agent</h1>

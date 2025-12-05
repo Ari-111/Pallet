@@ -402,9 +402,7 @@ export default function VoiceAgentPage() {
                 </Button>
               </Link>
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-violet-600 to-indigo-600 flex items-center justify-center">
-                  <Sparkles className="w-5 h-5 text-white" />
-                </div>
+                <img src="/logo.png" alt="Pallet Logo" className="w-8 h-8 rounded-lg" />
                 <span className="text-xl font-bold bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent">Pallet</span>
               </div>
             </div>
@@ -424,7 +422,15 @@ export default function VoiceAgentPage() {
               Real-time voice conversation with interruption support
             </p>
             <p className="text-sm text-muted-foreground mt-2">
-              Powered by OpenAI Realtime API • WebRTC
+              Powered by{" "}
+              <a 
+                href="https://murf.ai/falcon" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-violet-600 hover:text-violet-700 underline"
+              >
+                Murf Falcon
+              </a>
             </p>
           </div>
 
@@ -640,6 +646,17 @@ export default function VoiceAgentPage() {
 
         <p className="text-center text-gray-500 text-sm mt-6">
           💡 Just speak naturally - the AI will respond in real-time
+        </p>
+        <p className="text-center text-xs text-gray-500 mt-2">
+          Powered by{" "}
+          <a 
+            href="https://murf.ai/falcon" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-violet-400 hover:text-violet-300 underline"
+          >
+            Murf Falcon
+          </a>
         </p>
       </div>
     </div>

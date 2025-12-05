@@ -69,9 +69,7 @@ export default function LandingPage() {
               animate={{ opacity: 1, x: 0 }}
               className="flex items-center gap-2"
             >
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-violet-600 to-indigo-600 flex items-center justify-center">
-                <Sparkles className="w-6 h-6 text-white" />
-              </div>
+              <img src="/logo.png" alt="Pallet Logo" className="w-10 h-10 rounded-xl" />
               <span className="text-2xl font-bold gradient-text">Pallet</span>
             </motion.div>
             <motion.div 
@@ -431,9 +429,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-violet-600 to-indigo-600 flex items-center justify-center">
-                <Sparkles className="w-6 h-6 text-white" />
-              </div>
+              <img src="/logo.png" alt="Pallet Logo" className="w-10 h-10 rounded-xl" />
               <span className="text-2xl font-bold gradient-text">Pallet</span>
             </div>
             <div className="flex items-center gap-8 text-sm text-muted-foreground">
